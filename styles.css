@@ -14,6 +14,10 @@ body {
     min-height: 100vh;
     color: rgb(105, 105, 105);
     line-height: 1.5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -23,6 +27,12 @@ p {
 #title {
     font-size: 3.25rem;
     text-align: center;
+}
+
+#description {
+    text-align: center;
+    width: 70%;
+    margin-top: 0;
 }
 
 #form {
@@ -53,10 +63,12 @@ p {
 
 canvas {
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 #palette,
 #complementary {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
